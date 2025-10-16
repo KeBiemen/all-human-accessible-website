@@ -1,12 +1,10 @@
 html {
-  font-family:  Helvetica;
-  height: auto;
-background-color: hsl(32 48% 85%);
+    font-family: Helvetica;
+    height: auto;
+    background-color: hsl(32 48% 85%);
     margin: 0 5% 0 5%;
- 
-
-  
 }
+
 h1 {
     font-size: 3.5em;
     align-items: center;
@@ -15,6 +13,74 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
 
+details {
+  display: inline-table;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  width: fit-content;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.315);
+  align-self: center;
+  margin: 1%;
+
+}
+
+  .geel {
+      background-color:  hsl(53 73% 57%) ;
+
+  }
+  .blauw {
+  background-color:  hsl(170 53% 70%) ;
+  }
+
+.roze {
+      background-color:  hsl(352 64% 77%) ;
+
+}
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open]::details-content {
+    border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  
+}
+
+input{
+    display: block;
     
 }
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none; }
+
+  label {
+    display: flex;
+    border: 1px solid;
+    padding: 0.6em;
+    margin: 3px;
+    box-shadow: 3px 1px 1px black;
+
+    /*  als je over de label hover dan krijgt het een grijze kleur  */
+    &:hover {
+        background: gray;
+        color: white;
+    }
+
+    /*  als de label ingeklikt wordt dan krijgt het een ander kleur  */
+    &:active {
+        background-color: black;
+    }
+}
+
+/* als de filter aangevinkt is, dan krijgt hij een ander kleur */
+input[type="radio"]:checked+label {
+    border-color: #000000;
+    background-color: #000000;
+    color: #ffffff; }
