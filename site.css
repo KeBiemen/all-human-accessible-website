@@ -13,54 +13,54 @@ h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+-webkit-text-stroke: 1px #000000;
 }
 
 details {
-  display: inline-table;
-  border: 2px solid #000000;
-  border-radius: 4px;
-  padding: 0.5em 0.5em 0;
-  width: fit-content;
-  box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.315);
-  align-self: center;
-  margin: 1%;
-
+    display: inline-table;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    width: fit-content;
+    box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.315);
+    align-self: center;
+    margin: 1%;
 }
 
-  .geel {
-      background-color:  hsl(53 73% 57%) ;
+.geel {
+    background-color: hsl(53 73% 57%);
+}
 
-  }
-  .blauw {
-  background-color:  hsl(170 53% 70%) ;
-  }
+.blauw {
+    background-color: hsl(170 53% 70%);
+}
 
 .roze {
-      background-color:  hsl(352 64% 77%) ;
-
+    background-color: hsl(352 64% 77%);
 }
+
 summary {
-  font-weight: bold;
-  margin: -0.5em -0.5em 0;
-  padding: 0.5em;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
 }
 
 details[open]::details-content {
     border-radius: 4px;
-  padding: 0.5em 0.5em 0;
-  
+    padding: 0.5em 0.5em 0.5em;
 }
 
-input{
+input {
     display: block;
-    
 }
-input[type="radio"] {
-  /* Add if not using autoprefixer */
-  -webkit-appearance: none;
-  appearance: none; }
 
-  label {
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+label {
     display: flex;
     border: 1px solid;
     padding: 0.6em;
@@ -83,4 +83,5 @@ input[type="radio"] {
 input[type="radio"]:checked+label {
     border-color: #000000;
     background-color: #000000;
-    color: #ffffff; }
+    color: #ffffff;
+}
