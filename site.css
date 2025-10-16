@@ -21,7 +21,7 @@ h1 {
 }
 
 details {
-    display: inline-flex;
+    display: inline-table;
     border: 2px solid #000000;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
