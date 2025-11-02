@@ -13,6 +13,7 @@ De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-
 
 ## Beschrijving
 De Website Design for Recognition is een overzichtspagina voor ideeën die te maken hebben met beeldherkenning. In het project zie je een overzicht met ideeënkaartjes met daarboven wat filters waar je de kaartjes zou moeten kunnen sorteren. https://kebiemen.github.io/all-human-accessible-website/
+Deze site is specifiek bedoeld voor ontwerpers en ambtenaren die te maken krijgen met beeldherkenning en is een soort sub-site voor de site : https://humanvaluesforsmartercities.nl/
 
 
 ## Kenmerken
