@@ -68,8 +68,8 @@ p {
 }
 
 form {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-top: 35px;
 }
 
@@ -155,13 +155,14 @@ input[type="radio"]:checked + label {
 }
 
 section {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 h2 {
   font-size: 30px;
   margin-bottom: 0%;
+  margin-left: 4%;
 }
 
 article {
@@ -177,6 +178,7 @@ article {
   height: 29em;
   box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.315);
   border: 2px solid #000000;
+  justify-self: center;
 }
 
 article:nth-last-of-type(3n) {
@@ -203,15 +205,15 @@ h3 {
 .foto1 {
   margin-top: 2%;
   grid-column: 1 / -1;
-  width: 19em;
+  min-width: 19em;
   height: 12em;
   grid-row: 1 / 2;
   object-fit: cover;
   border: 2px solid #000000;
-  margin-left: 2%;
-  margin-right: 0.5%;
+
   border-radius: 2%;
   margin-bottom: 0%;
+  justify-self: center;
 }
 
 .Open-dl {
@@ -225,12 +227,13 @@ h3 {
     "Processstap-dd participatieniveau-dd"
     "uitvoering-dt uitvoering-dt"
     "uitvoering-dd  uitvoering-dd ";
+    
 
   dt {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     margin-left: 2.5em;
     margin-top: 1em;
-    font-weight: lighter;
+    font-weight: light;
     text-align: start;
   }
 
@@ -260,6 +263,7 @@ dl {
   grid-template-areas:
     "processtap-dd Participatieniveau-dd "
     "Evaluating-dt Transparency-dt";
+   
 }
 
 footer {
